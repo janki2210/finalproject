@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-brown{
+    background-color: brown;
+}
+.bg-chocolate{
+    background-color: chocolate;
+}
+.bg-white{
+    background-color: white;
+}
+header{
+    width: 20%;
+    height: 100vh;
+    padding: 0 5px;
+    float: left;
+    position: fixed;
+    background-color: #122620;
+    box-sizing: border-box;
+    text-align: center;
+ }
+header .profilebar{
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+header .profilebar img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border:2px solid white;
+}
+header .social{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+header .social h3{
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+header .social .iconbar{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+header .social .iconbar a{
+    color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+header .social .iconbar a:hover{
+    transition: 2s;
+    background-color: darkgray;
+}
+header nav{
+    text-align: center;
+    margin: 10px 10px;
+}
+header ul{
+    font-size: 15px;
+    list-style-type: none;
+    margin: 10px;
+}
+header ul li{
+    text-align: left;
+    color: white;
+    padding:10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li:hover{
+    transition: 2s;
+    background-color: darkgray;
+}
+header .i{
+    padding:0 10px;
+}
+@media screen and (max-width:427px){
+  header{
+    width: 100%;
+    height: 150px;
+    float: left;
+    transition: 1s;
+  }
+  header .profilebar{
+    width: 20%;
+    margin: 10px;
+    /* padding: 0 5px; */
+    box-sizing: border-box;
+    float: left;
+  }
+  header .profilebar img{
+      width: 100%;
+      height: 100px;
+  }
+  header .social{
+    width: 80%;
+    text-align: center;
+  }
+}
+/* main */
+.main{
+    width: 80%;
+    float: right;
+}
+.main .home{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.main .home .home-container {
+    width: 100%;
+    margin: auto;
+}
+.main .home-container h1{
+    color: #fff;
+    font-size: 5em;
+    text-transform: capitalize;
+    padding: 150px 0;
+    margin: 0 150px;
+    text-shadow: 1px 2px 8px red;
+}
+/* about */
+.main .about{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.main .about .heading{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+    /* margin: 10px 0; */
+}
+.main .about .p1{
+    font-size: 13px;
+    padding:10px 0;
+}
+.main .row{
+    width: 100%;
+    clear: both;
+    margin: 10px 0;
+}
+.main .col6{
+    width: 50%;
+    padding: 10px 0;
+    float: left;
+}
+.main .aboutbox{
+    text-align: center;
+}
+.main .aboutbox img{
+    width: 100%;
+    height: 250px;
+    padding: 10px 0;
+}
+.main .p2{
+    font-size:12px;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+.main .p3{
+    font-size:12px;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+/* my skills */
+.main .skills{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.main .skills .heading{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+    /* margin: 10px 0; */
+}
+.main .skillsrow{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+}
+.main .myskills{
+    width: 50%;
+    float: left;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px gray;
+
+}
+.main .subskills{
+    text-align: center;
+    padding: 30px;
+    border: 2px solid lightgray;
+}
+.main .subskills h5{
+    text-align:left;
+    position: relative;
+}
+.main .subskills h5::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 10px;
+    border:7px solid darkgrey;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+/* education */
+.main .education{
+    width: 100%;
+    height: 100vh;
+    float: right;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.main .education .heading{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+    /* margin: 10px 0; */
+}
+.educationrow{
+    width: 100%;
+    clear: both;
+}
+.educationbox{
+    width: 80%;
+    float: left;
+    margin: 20px 20px;
+    border: 2px solid darkgray;
+    box-shadow: 0px 0px 10px gray;
+}
+.subeducationbox{
+    text-align: left;
+    color: black;
+    padding: 10px 10px;
+}
+.subeducationbox h5{
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    padding: 0px 20px;
+}
+.subeducationbox h6{
+    text-align: left;
+    color: black;
+    padding: 10px 20px;
+}
+.subeducationbox h3{
+    text-align: left;
+    color: black;
+    padding: 0px 20px;
+}
+
+/* portfolio */
+.main .portfolio{
+    width: 100%;
+    height: 100vh;
+    float: right;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.main .portfolio .heading{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+    /* margin: 10px 0; */
+}
+.portfoliorow{
+    width: 100%;
+    clear: both;
+}
+.portfoliobox{
+    width: 33.333%;
+    float: left;
+}
+.subporfoliobox {
+    height: 200px;
+    background-image: url('../img/stock-photo-businesswoman-typing-on-laptop-at-workplace-woman-working-in-home-office-hand-keyboard-349413722.jpg');
+    background-size: cover;
+    text-align:center;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px gray;
+
+}
+.subporfoliobox::before{
+    content: '';
+    width:100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color:rgba(139, 0, 0, 0.515);
+    position: absolute;
+    left:-100%;
+    transition: 2s;
+}
+.subporfoliobox:hover::before{
+    left: 0;
+}
+.subporfoliobox::after{
+    content: '';
+    width:100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color:rgba(139, 0, 0, 0.487);
+    position: absolute;
+    right: -100%;
+    transition: 2s;
+}
+.subporfoliobox:hover::after{
+    right: 0;
+}
+.subporfoliobox img{
+    width: 100%;
+    height: 200px;
+}
+/* contact */
+.main .contact{
+    width: 100%;
+    height: 100vh;
+    float: right;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.main .contact .heading{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+    /* margin: 10px 0; */
+}
+.main .information{
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+}
+.main .details{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.main .contactbox{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid darkgray;
+    box-shadow: 0px 0px 10px gray;
+}
+.main .contactbox h5{
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.main .contactbox p{
+    text-align: left;
+    color: gray;
+    font-size: 16px;
+}
+/* footer */
+.main .footer{
+    width: 100%;
+    height: 60px;
+    background-color:#d6d4cc;
+    padding:10px;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
+}
+.footer h4{
+    color: white;
+    /* margin: 5px; */
+    margin: 0;
+}
+.footer a{
+    color: white;
+}
