@@ -88,19 +88,19 @@ header ul li:hover{
 header .i{
     padding:0 10px;
 }
-header button{
+/* header button{
     width: 50px;
     height: 50px;
     /* display: none; */
-    float: right;
-    text-align: center;
-}
-header button i{
-    width: 100%;
-    height: 4px;
-    margin: 10px 0;
+    /* float: right; */
+    /* text-align: center; */
+/* } */
+/* header button i{ */
+    /* width: 100%; */
+    /* height: 4px; */
+    /* margin: 10px 0; */
     /* display: block; */
-}
+/* } */
 /* main */
 .main{
     width: 80%;
@@ -111,7 +111,7 @@ header button i{
     width: 100%;
     height: 100vh;
     padding: 10px 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
 }
 .main .home .home-container {
@@ -132,7 +132,7 @@ header button i{
     height: 100vh;
     padding: 10px 10px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main .about .heading{
     text-transform: capitalize;
@@ -178,7 +178,7 @@ header button i{
     height: 100vh;
     padding: 10px 10px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main .skills .heading{
     text-transform: capitalize;
@@ -226,7 +226,7 @@ header button i{
     float: right;
     padding: 10px 10px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main .education .heading{
     text-transform: capitalize;
@@ -274,7 +274,7 @@ header button i{
     float: right;
     padding: 10px 10px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main .portfolio .heading{
     text-transform: capitalize;
@@ -338,7 +338,7 @@ header button i{
     float: right;
     padding: 10px 10px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main .contact .heading{
     text-transform: capitalize;
@@ -421,16 +421,18 @@ header button i{
         width: 100%;
         padding: 10px 10px;
     }
-  }
-@media screen and (max-width: 427px){
-      .main {
-          width: 100%;
+    header nav{
+        display: none;
     }
   }
-  @media screen and (max-width: 427px){
+@media screen and (max-width: 427px){
+    .main {
+        width: 100%;
+    }
+}
+@media screen and (max-width:427px) {
     .main .myskills {
         width: 100%;
     }
 }
-
 
