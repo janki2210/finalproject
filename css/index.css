@@ -30,11 +30,12 @@ header .profilebar{
     margin: 5px;
 }
 header .profilebar img{
-    width: 100%;
-    height: 180px;
+    width: 60%;
+    height: 120px;
     border-radius: 50%;
-    margin-top: 10px;
-    border:2px solid white;
+    margin-top: 30px;
+    border:6px solid white;
+    /* border:2px solid white; */
 }
 header .social{
     width: 100%;
@@ -57,7 +58,7 @@ header .social .iconbar a{
     color: white;
     padding: 5px 5px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 15px;
 }
 header .social .iconbar a:hover{
     transition: 2s;
@@ -68,7 +69,7 @@ header nav{
     margin: 10px 10px;
 }
 header ul{
-    font-size: 15px;
+    font-size: 14px;
     list-style-type: none;
     margin: 10px;
 }
@@ -110,12 +111,15 @@ header .i{
 .main .home{
     width: 100%;
     height: 100vh;
-    padding: 10px 10px;
-    /* border: 2px solid red; */
-    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 0;
 }
 .main .home .home-container {
     width: 100%;
+    z-index: 2;
     margin: auto;
 }
 .main .home-container h1{
@@ -369,6 +373,39 @@ header .i{
     text-align: left;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+.main .contactbox .input{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main .contactbox .msgbox {
+    width: 95%;
+    height: 50px;
+    outline: none;
+    border: 1px solid lightgrey;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.main .contactbox .msgbox1{
+    width: 95%;
+    height: 150px;
+    outline: none;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+.main .contactbox .btn{
+    width: 100px;
+    height: 50px;
+    background-color: #4a89dc;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 10px;
 }
 .main .contactbox p{
     text-align: left;
